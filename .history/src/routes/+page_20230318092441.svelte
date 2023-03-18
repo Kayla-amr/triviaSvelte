@@ -108,6 +108,6 @@
     }
     button {
         padding: 10px;
-        margin: 10px 0 10px 0;
+        margin: 0 10px;
     }
 </style>

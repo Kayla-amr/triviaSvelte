@@ -98,16 +98,10 @@
 </div>
 
 <style>
-    
-    label {
-        padding: 10px;
-    }
-    select {
-        margin: 0 10px 10px;
-        padding: 10px;
-    }
-    button {
-        padding: 10px;
-        margin: 10px 0 10px 0;
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        pa
     }
 </style>

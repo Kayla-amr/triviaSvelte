@@ -42,7 +42,6 @@
 		}
 	}
 </script>
-<div class="triviaApp">
 
 <div>
 	<form id="quiz-form">
@@ -69,7 +68,7 @@
 	</form>
 </div>
 
-<div>
+<div class="triviaApp">
 	<form action="triviaQuestions">
 		{#each questions as question}
 			<p>{@html question.question}</p>
@@ -97,11 +96,12 @@
 		<p>Incorrect Answers: {incorrectAnswers}</p>
 	</div>
 </div>
-</div>
 
 <style>
     .triviaApp {
-        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     label {

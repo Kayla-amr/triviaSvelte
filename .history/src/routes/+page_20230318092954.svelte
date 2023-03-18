@@ -97,7 +97,6 @@
 		<p>Incorrect Answers: {incorrectAnswers}</p>
 	</div>
 </div>
-</div>
 
 <style>
     .triviaApp {

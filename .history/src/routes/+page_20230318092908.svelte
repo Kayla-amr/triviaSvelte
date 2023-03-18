@@ -42,7 +42,6 @@
 		}
 	}
 </script>
-<div class="triviaApp">
 
 <div>
 	<form id="quiz-form">
@@ -96,7 +95,6 @@
 		<p>Correct Answers: {correctAnswers}</p>
 		<p>Incorrect Answers: {incorrectAnswers}</p>
 	</div>
-</div>
 </div>
 
 <style>

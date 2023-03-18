@@ -70,7 +70,7 @@
 </div>
 
 <div>
-	<form id="triviaQuestions">
+	<form id="triviaQuestions" action="submitAnswer#">
 		{#each questions as question}
 			<p>{@html question.question}</p>
 			<input
@@ -89,7 +89,7 @@
 			{/each}
 		{/each}
 
-		<button on:click={submitTrivia}>Submit</button>
+		<button class="submitAnswer" on:click={submitTrivia}>Submit</button>
 	</form>
 
 	<div>

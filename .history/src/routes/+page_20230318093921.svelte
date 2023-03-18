@@ -70,7 +70,7 @@
 </div>
 
 <div>
-	<form id="triviaQuestions">
+	<form id="triviaQuestions" action="#">
 		{#each questions as question}
 			<p>{@html question.question}</p>
 			<input

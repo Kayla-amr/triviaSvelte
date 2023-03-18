@@ -89,7 +89,7 @@
 			{/each}
 		{/each}
 
-		<button on:click={submitTrivia}>Submit</button>
+		<button class="submitAnswer" on:click={submitTrivia}>Submit</button>
 	</form>
 
 	<div>

@@ -70,7 +70,7 @@
 </div>
 
 <div>
-	<form id="triviaQuestions">
+	<form action="triviaQuestions">
 		{#each questions as question}
 			<p>{@html question.question}</p>
 			<input
@@ -97,7 +97,7 @@
 		<p>Incorrect Answers: {incorrectAnswers}</p>
 	</div>
 </div>
-</div>
+
 
 <style>
     .triviaApp {
